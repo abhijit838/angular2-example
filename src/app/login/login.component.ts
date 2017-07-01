@@ -9,4 +9,12 @@ export class LoginComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  login() {
+    alert('You clicked on login!');
+  }
+
+  register() {
+    alert('You clicked on register!');
+  }
 }
